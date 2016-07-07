@@ -1,0 +1,45 @@
+PATH
+  remote: ./asciidoctor-diagram
+  specs:
+    asciidoctor-diagram (1.4.0)
+
+PATH
+  remote: ./asciidoctor-latex
+  specs:
+    asciidoctor-latex (1.5.0.16.dev)
+      htmlentities (~> 4.3)
+      opal (~> 0.6.3)
+
+PATH
+  remote: ./asciidoctor
+  specs:
+    asciidoctor (1.5.5.dev)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.2)
+    htmlentities (4.3.4)
+    json (2.0.1)
+    opal (0.6.3)
+      source_map
+      sprockets
+    rack (2.0.1)
+    source_map (3.0.1)
+      json
+    sprockets (3.6.3)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    thread_safe (0.3.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asciidoctor!
+  asciidoctor-diagram!
+  asciidoctor-latex!
+  thread_safe
+
+BUNDLED WITH
+   1.12.5
